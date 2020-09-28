@@ -16,9 +16,8 @@ public class LogService {
 	}
 
 	void consume(ConsumerRecord<String, String> record) {
-		System.out.println(
-				"log " + record.topic() + "/" + record.key() + "/" + record.offset() + "/" + record.partition());
-		System.out.println(record.value());
+		System.out.println("log " + record.topic() + "/" + record.key() + "/" + record.value() + record.offset() + "/"
+				+ record.partition());
 
 	}
 
