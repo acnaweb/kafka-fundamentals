@@ -111,5 +111,6 @@
 		<module>service-new-order</module>
 		<module>common-kafka</module>
 		<module>common-dto</module>
+		<module>service-users</module>
 	</modules>
 </project>
