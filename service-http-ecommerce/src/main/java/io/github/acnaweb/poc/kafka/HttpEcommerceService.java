@@ -16,6 +16,7 @@ public class HttpEcommerceService {
 
 		server.start();
 		server.join();
+		
 	}
 
 }
