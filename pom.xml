@@ -112,5 +112,6 @@
 		<module>common-kafka</module>
 		<module>common-dto</module>
 		<module>service-users</module>
+		<module>service-http-ecommerce</module>
 	</modules>
 </project>
